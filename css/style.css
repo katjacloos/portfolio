@@ -22,7 +22,8 @@
     font-family: myFirstFont;
     }
     h3{
-  font-size: 40px;
+    font-size: 40px;
+    margin-top: -1.5%;
     }
     h4{
     font-size: 40px;
@@ -91,6 +92,7 @@ header{
   }
   iframe{
   border: none;
+  margin-top: -3%;
   width: 100%;
   aspect-ratio: 6200/1700;
   }
@@ -115,13 +117,6 @@ img{
 }
 .col{
   margin: 30px;
-}
-.stjernehero{
-  max-width: 20%;
-  height: auto;
-  display: block;
-  position: absolute;
-  top: 400px;
 }
 .herobillede{
   max-width: 80%;
@@ -149,7 +144,7 @@ img{
   background-color:#fac0c0;
   font-size: 30px;
   width: auto;
-  margin-left: 10%;
+  margin-left: 4%;
   margin-right: 60%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -235,6 +230,9 @@ img{
           }
           .link_opgave {
           font-size: 22px;
+          }
+          .link_projekter{
+            font-size: 15px;
           }
         }
 
