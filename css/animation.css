@@ -4,6 +4,8 @@
     left: 50%;
     width: 40%;
     aspect-ratio: 190/190;
+
+    overflow: hidden;
 }
 
 #cirkel{

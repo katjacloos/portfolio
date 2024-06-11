@@ -81,6 +81,9 @@ header{
   }
   footer{
     grid-column: 1 / -1;
+    position: relative;
+   bottom: 0;
+  width: 100%;
   }
   main{
     grid-column: 1 / -1;
@@ -140,6 +143,21 @@ img{
   padding-bottom: 1%;
   border-radius: 5px;
 }
+.link_projekter{
+  display: flex;
+  justify-content: center;
+  background-color:#fac0c0;
+  font-size: 30px;
+  width: auto;
+  margin-left: 10%;
+  margin-right: 60%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+}
+
 /* ID */
 #kryds {
   display: flex;
