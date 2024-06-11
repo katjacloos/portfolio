@@ -1,0 +1,256 @@
+/* fonts */
+.just-another-hand-regular {
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/MICKLEST.ttf);
+  font-weight: bold;
+}
+
+main{
+  font-family: myFirstFont;
+    color: #981818;
+}
+
+
+h1{
+  font-size: 130px;
+  font-family: myFirstFont;
+}
+h2{
+  font-size: 100px;
+  margin: 0;
+  font-family: myFirstFont;
+}
+h3{
+  font-size: 40px;
+}
+h4{
+  font-size: 40px;
+  text-align: right;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5{
+  font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h6{
+  font-size: 50px;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  margin-left: 2%;
+}
+
+
+
+
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: #14371b;
+}
+
+
+header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #981818;
+    margin-right: 2px;
+}
+footer{ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  /* style */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    justify-content: center;
+    background-color: rgb(252, 249, 243);
+}
+
+header{
+    grid-column: 1 / -1;
+    a:link {
+        color: #981818;
+      }
+    a:visited {
+        color: #981818;
+      }
+      a:hover {
+        color: black;
+      }
+  }
+  h1{
+    grid-column: 1 / -1;
+  }
+  footer{
+    grid-column: 1 / -1;
+  }
+  main{
+    grid-column: 1 / -1;
+    margin: 20px;
+  }
+iframe{
+  border: none;
+  width: 100%;
+  aspect-ratio: 6200/1700;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 20px;
+  list-style: none;
+}
+
+.box{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #fac0c0;
+}
+
+
+.col{
+  margin: 30px;
+}
+.stjernehero{
+  max-width: 20%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 400px;
+}
+
+.herobillede{
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link_opgave{
+  display: flex;
+  justify-content: center;
+  background-color:#fac0c0;
+  font-size: 30px;
+  width: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+}
+
+
+
+img{
+ max-width: 100%;
+ border-radius: 5px;
+}
+
+  
+#kryds {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  font-size: 60px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  
+  /* desktop */
+  @media (min-width: 733px) {
+    
+
+
+    li{
+        margin-left: 30px;
+    }
+    .section_1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .section_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .section_3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    
+    
+      /* layout mobile*/
+    @media (max-width: 732px) {
+        li{
+            margin-left: 30px;
+        }
+        .section_1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+          }
+          .section_2 {
+            display: grid;
+            grid-template-columns: 1fr;
+          }
+          .section_3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+          }
+          h1{
+            font-size: 80px;
+            font-family: myFirstFont;
+        }
+        h2{
+            font-size: 70px;
+            margin: 0;
+            font-family: myFirstFont;
+        }
+        h3{
+          font-size: 24px;
+        }
+        h4{
+          font-size: 25px;
+          margin: 0%;
+          margin-bottom: 5%;
+        }
+        h5{
+          font-size: 25px;
+          margin: 0%;
+          margin-bottom: 5%;
+        }
+        h6{
+          font-size: 30px;
+        }
+        p {
+          font-size: 15px;
+        }
+        .link_opgave {
+          font-size: 22px;
+        }
+        }
+
+/* links */
+a:link {
+    color: #981818;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: #981818;
+  }
+
+  a:hover {
+    color: black;
+  }
