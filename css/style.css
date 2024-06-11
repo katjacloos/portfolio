@@ -93,6 +93,7 @@ header{
   iframe{
   border: none;
   margin-top: -3%;
+  margin-left: 5%;
   width: 100%;
   aspect-ratio: 6200/1700;
   }
@@ -114,6 +115,13 @@ img{
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: #fac0c0;
+}
+.footer_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-left: -20px;
+  list-style: none;
 }
 .col{
   margin: 30px;
@@ -185,6 +193,11 @@ img{
   padding: 20px;
   font-size: 60px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#footer_forside{
+  position: absolute;
+  margin-top: 100px;
+  margin-bottom: 0%;
 }
 
 /* RESPONSIV GRID OG TEKST */
@@ -264,7 +277,7 @@ img{
           font-size: 22px;
           }
           .link_projekter{
-            font-size: 15px;
+            font-size: 10px;
           }
           .knap_projekt{
             display: none;
