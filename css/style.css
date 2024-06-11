@@ -83,8 +83,8 @@ header{
   footer{
     grid-column: 1 / -1;
     position: relative;
-   bottom: 0;
-  width: 100%;
+    bottom: 0;
+    max-width: 18ch;
   }
   main{
     grid-column: 1 / -1;
@@ -205,7 +205,7 @@ img{
 }
 #forside_navn{
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: -5px;
 }
 
 /* RESPONSIV GRID OG TEKST */
@@ -281,6 +281,9 @@ img{
           p {
           font-size: 15px;
           }
+          footer {
+            max-width: 15ch;
+            }
           .link_opgave {
           font-size: 15px;
           }
@@ -289,6 +292,9 @@ img{
           }
           .knap_projekt{
             display: none;
+          }
+          #footer_forside{
+            max-width: 13ch;
           }
           .section_5{
             display: grid;
