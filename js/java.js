@@ -1,12 +1,12 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// 'NÆSTE KNAP'/'FORRIGE KNAP' KONTROL
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+// BILLEDE KONTROL
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }

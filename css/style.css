@@ -1,4 +1,4 @@
-/* fonts */
+/* FONTS */
 .just-another-hand-regular {
   font-family: "Just Another Hand", cursive;
   font-weight: 400;
@@ -9,62 +9,53 @@
   src: url(fonts/MICKLEST.ttf);
   font-weight: bold;
 }
-
-main{
-  font-family: myFirstFont;
-    color: #981818;
-}
-
-
-h1{
-  font-size: 130px;
-  font-family: myFirstFont;
-}
-h2{
-  font-size: 100px;
-  margin: 0;
-  font-family: myFirstFont;
-}
-h3{
+    main{
+    font-family: myFirstFont;
+    color: #981818;}
+    h1{
+    font-size: 130px;
+    font-family: myFirstFont;
+    }
+    h2{
+    font-size: 100px;
+    margin: 0;
+    font-family: myFirstFont;
+    }
+    h3{
   font-size: 40px;
-}
-h4{
-  font-size: 40px;
-  text-align: right;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h5{
-  font-size: 40px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h6{
-  font-size: 50px;
-  margin-top: 10%;
-  margin-bottom: 0%;
-  margin-left: 2%;
-}
-
-
-
-
-p{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  color: #14371b;
-}
-
-
-header{
+    }
+    h4{
+    font-size: 40px;
+    text-align: right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+    h5{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h6{
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    }
+    p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #14371b;
+    }
+    header{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #981818;
     margin-right: 2px;
-}
-footer{ 
+    }
+    footer{ 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    }
 
-  /* style */
-  body, html {
+
+  /* STYLING */
+body, html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -73,7 +64,6 @@ footer{
     justify-content: center;
     background-color: rgb(252, 249, 243);
 }
-
 header{
     grid-column: 1 / -1;
     a:link {
@@ -96,11 +86,11 @@ header{
     grid-column: 1 / -1;
     margin: 20px;
   }
-iframe{
+  iframe{
   border: none;
   width: 100%;
   aspect-ratio: 6200/1700;
-}
+  }
 
 ul{
   display: flex;
@@ -109,14 +99,17 @@ ul{
   padding: 20px;
   list-style: none;
 }
+img{
+  max-width: 100%;
+  border-radius: 5px;
+ }
 
+/* CLASSES */
 .box{
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: #fac0c0;
 }
-
-
 .col{
   margin: 30px;
 }
@@ -127,14 +120,12 @@ ul{
   position: absolute;
   top: 400px;
 }
-
 .herobillede{
   max-width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .link_opgave{
   display: flex;
   justify-content: center;
@@ -149,15 +140,7 @@ ul{
   padding-bottom: 1%;
   border-radius: 5px;
 }
-
-
-
-img{
- max-width: 100%;
- border-radius: 5px;
-}
-
-  
+/* ID */
 #kryds {
   display: flex;
   justify-content: end;
@@ -166,16 +149,13 @@ img{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-  
+/* RESPONSIV GRID OG TEKST */
   /* desktop */
   @media (min-width: 733px) {
-    
-
-
     li{
         margin-left: 30px;
     }
-    .section_1 {
+      .section_1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
       }
@@ -189,14 +169,13 @@ img{
       }
     }
 
-    
-    
-      /* layout mobile*/
+  
+    /* layout mobile*/
     @media (max-width: 732px) {
         li{
             margin-left: 30px;
         }
-        .section_1 {
+          .section_1 {
             display: grid;
             grid-template-columns: 1fr 1fr;
           }
@@ -211,34 +190,34 @@ img{
           h1{
             font-size: 80px;
             font-family: myFirstFont;
-        }
-        h2{
+          }
+          h2{
             font-size: 70px;
             margin: 0;
             font-family: myFirstFont;
-        }
-        h3{
+          }
+          h3{
           font-size: 24px;
-        }
-        h4{
+          }
+          h4{
           font-size: 25px;
           margin: 0%;
           margin-bottom: 5%;
-        }
-        h5{
+          }
+          h5{
           font-size: 25px;
           margin: 0%;
           margin-bottom: 5%;
-        }
-        h6{
+          }
+          h6{
           font-size: 30px;
-        }
-        p {
+          }
+          p {
           font-size: 15px;
-        }
-        .link_opgave {
+          }
+          .link_opgave {
           font-size: 22px;
-        }
+          }
         }
 
 /* links */
