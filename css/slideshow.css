@@ -96,6 +96,7 @@
   to {opacity: 1}
 }
 
+
 @media (max-width: 732px) {
   .text{
     font-size: 15px;
@@ -103,4 +104,13 @@
   .numbertext{
     font-size: 20px;
   }
+  .prev, .next {
+    font-size: 15px;
+  }
+  .center {
+    border: 33px solid rgb(252, 249, 243);
+    padding-bottom: 2cap;
+    padding-top: 3cap;
+  }
+  
 }
