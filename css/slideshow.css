@@ -95,3 +95,12 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+@media (max-width: 732px) {
+  .text{
+    font-size: 15px;
+  }
+  .numbertext{
+    font-size: 20px;
+  }
+}
