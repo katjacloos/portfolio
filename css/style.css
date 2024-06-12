@@ -126,6 +126,10 @@ img{
 .col{
   margin: 30px;
 }
+.col2{
+  margin-left: 30px;
+  margin-top: -10px;
+}
 .herobillede{
   max-width: 70%;
   display: block;
@@ -186,6 +190,14 @@ img{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.ommig {
+margin-bottom: 20px;
+}
+.ekstra_pad {
+  margin: 20px;
+  margin-top: 40px;
+}
+
 /* ID */
 #kryds {
   display: flex;
@@ -233,6 +245,22 @@ img{
       .knap_tal{
         display: none;
       }
+      .section_1_2 {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+      }
+      .section_2_1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      .cvbillede{
+        max-width: 40%;
+        display: block;
+        margin-top: -17%;
+        margin-bottom: -17%;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
   
@@ -252,6 +280,18 @@ img{
           .section_3 {
             display: grid;
             grid-template-columns: 1fr 1fr;
+          }
+          .section_5{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          }
+          .section_1_2{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            flex-direction: row;
+          }
+          .col2{
+            margin-left: 6px;
           }
           h1{
             font-size: 80px;
@@ -293,12 +333,16 @@ img{
           .knap_projekt{
             display: none;
           }
+          .cvbillede{
+            max-width: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -20px;
+            margin-bottom: -20px;
+          }
           #footer_forside{
             max-width: 13ch;
-          }
-          .section_5{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
           }
         }
 
@@ -315,3 +359,4 @@ a:visited {
   a:hover {
     color: black;
   }
+
